@@ -1,7 +1,7 @@
-print "hello world!"
+print 'Hello World!'
 name = raw_input('What is your name?')
-print (type(name))
-print("hello " + name)
-print("nice to meetcha")
-age = input("I'm a brand new program zero years old. How old are you?")
-print("wow that means you are " + str(age) + " years older than me!")
+print type(name)
+print 'Hello %s' % name
+print 'Nice to meetcha'
+age = raw_input('I\'m a brand new program zero years old. How old are you?')
+print 'Wow that means you are %s years older than me!' % age
